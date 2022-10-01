@@ -1,9 +1,13 @@
 {
-  "title": "Prioritize your course assignments. Get ahead of the game.",
-  "text": "Input your course assignments, and let us do the work of ranking them by priority.",
+  "title": "Landing page template for developers & startups",
+  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
   "button": [
     {
-      "title": "Click here to begin!"
+      "title": "Explore"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
     }
   ]
 }

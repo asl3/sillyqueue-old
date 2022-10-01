@@ -1,7 +1,6 @@
 import { lazy } from "react";
-import Picker from "react-scrollable-picker";
 import IntroContent from "../../content/IntroContent.json";
-// import MiddleBlockContent from "../../content/MiddleBlockContent.json";
+import MiddleBlockContent from "../../content/MiddleBlockContent.json";
 import AboutContent from "../../content/AboutContent.json";
 import MissionContent from "../../content/MissionContent.json";
 import ProductContent from "../../content/ProductContent.json";
@@ -25,11 +24,11 @@ const Home = () => {
         icon="developer.svg"
         id="intro"
       />
-      {/* <MiddleBlock
+      <MiddleBlock
         title={MiddleBlockContent.title}
         content={MiddleBlockContent.text}
         button={MiddleBlockContent.button}
-      /> */}
+      />
       <ContentBlock
         type="left"
         title={AboutContent.title}
